@@ -7,15 +7,15 @@ class Header extends React.Component {
     render() {
         return (
             <header>
-                <img className="header--avatar" src={'./assets/profile_pic.jpg'} alt="" />
-                <div className="header--buttons">
-                    <div className="header--btn">
+                <img className="contact-head--avatar" src={'./assets/images/profile_pic.jpg'} alt="" />
+                <div className="contact-head--buttons">
+                    <div className="contact-head--btn">
                         <DonutLargeIcon />
                     </div>
-                    <div className="header--btn">
+                    <div className="contact-head--btn">
                         <ChatIcon />
                     </div>
-                    <div className="header--btn">
+                    <div className="contact-head--btn">
                         <MoreVertIcon />
                     </div>
                 </div>
