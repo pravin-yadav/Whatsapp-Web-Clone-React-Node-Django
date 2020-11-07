@@ -1,17 +1,22 @@
+import React from 'react'
 import Chat from './components/Chat';
-import Contact from './components/Contact';
+import ChatSidebar from './components/ChatSidebar';
 import './styles/index.scss';
 
 function App() {
   return (
-    <div className="container">
-      <div className="contact--container">
-        <Contact />
+    <React.Fragment>
+      <div className="banner" />
+      <div className="container">
+        <div className="chat-sidebar--container">
+          <ChatSidebar />
+        </div>
+        <div className="chat--container">
+          <Chat />
+        </div>
       </div>
-      <div className="chat--container">
-        <Chat />
-      </div>
-    </div>
+    </React.Fragment>
+
   );
 }
 

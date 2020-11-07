@@ -1,15 +1,17 @@
 import React from 'react'
+import { ChatList } from './ChatList'
 import Header from './Header'
 import Search from './Search'
 
-class Contact extends React.Component {
+class ChatSidebar extends React.Component {
     render() {
         return (
             <React.Fragment>
                 <Header />
                 <Search />
+                <ChatList />
             </React.Fragment>
         )
     }
 }
-export default Contact
+export default ChatSidebar
