@@ -1,6 +1,7 @@
 @import './components/header.scss';
 @import './components/search.scss';
 @import './components//ChatList.scss';
+@import './components/NoActiveChat.scss';
 
   .banner{
     background-color: #009688;
@@ -27,6 +28,9 @@
     border-right: 1px solid #ddd;
   }
   
+  .chat--container{
+    flex: 1;
+  }
   
   
   

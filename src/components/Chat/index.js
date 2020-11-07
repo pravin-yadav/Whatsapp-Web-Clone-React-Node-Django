@@ -1,9 +1,12 @@
 import React from 'react'
+import NoActiveChat from './NoActiveChat'
 
 class Chat extends React.Component {
     render() {
         return (
-            <h2>Chat Section</h2>
+            <React.Fragment>
+                <NoActiveChat />
+            </React.Fragment>
         )
     }
 }
